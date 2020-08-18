@@ -24,6 +24,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -35,7 +36,7 @@
       <updated>1597680872212</updated>
       <workItem from="1597680873255" duration="2405000" />
       <workItem from="1597715912108" duration="608000" />
-      <workItem from="1597727618104" duration="12441000" />
+      <workItem from="1597727618104" duration="12784000" />
     </task>
     <servers />
   </component>
