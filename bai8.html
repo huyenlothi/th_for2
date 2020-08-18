@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<button onclick="game()">start</button>
+<script>
+    function game() {
+        let min= parseInt(prompt("nhap vao khoang gia gia tri ban muon doan: min= "));
+        let max = parseInt(prompt("nhap vao khoang gia gia tri ban muon doan: max= "));
+
+        let rdnumber = Math.floor(Math.random()*(max-min)) + min;
+        let count =0;
+        while (count<=3) {
+            let yournumber =parseInt(prompt("ban doan so nao?"));
+            if (yournumber==rdnumber) {
+                alert("you win! the number is: " + rdnumber);
+                break;
+            }
+            else if(yournumber<rdnumber) {
+                alert("ban nhap lai so lon hon nhe!");
+            }else if(yournumber>rdnumber) {
+                alert("ban nhap lai so be hon nhe !")
+            }
+            count+=1;
+            if (count==3) {
+                alert("game over!")
+            }
+        }
+    }
+</script>
+</body>
+</html>

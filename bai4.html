@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai4</title>
+</head>
+<body>
+<script>
+    let n1=0;
+    let n2=1;
+    let temp;
+    for (let i=2; ; i++) {
+        if (n2%5==0){
+            document.write(n2);
+            break;
+        }else {
+            temp=n1;
+            n1=n2;
+            n2=temp+n1;
+        }
+    }
+</script>
+</body>
+</html>
